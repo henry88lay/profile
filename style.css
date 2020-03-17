@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap');
+
+@media (max-width: 960px) {
+	/* For a screen < 960px, this CSS will be read */
+	.container {
+		width: 700px;
+		margin: 0 auto;
+		background-color: #f7f7f7;
+	}
+}
+@media (max-width: 720px) {
+	/* For a screen < 720px, this CSS will be read */
+	.container {
+		width: 500px;
+		margin: 0 auto;
+		background-color: #f7f7f7;
+	}
+}
+@media (max-width: 540px) {
+	/* For a screen < 540px, this CSS will be read */
+	.container {
+		width: 300px;
+		margin: 0 auto;
+		background-color: #f7f7f7;
+	}
+}
+
+/* .container {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #f7f7f7;
+} */
+
+body {
+	text-align: center;
+	background-color: #ffffff;
+	font-family: Lora;
+	color: cornflowerblue;
+	line-height: normal;
+}
+
+h2,
+h1 {
+	font-family: Lora;
+}
+
+p {
+	font-size: 16px;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	padding: 8px auto;
+}
+
+.button-color {
+	font-size: larger;
+	font-family: Lora;
+	text-align: center;
+	padding: 24px;
+	background-color: rgb(107, 196, 248);
+	color: cornflowerblue;
+	border: 2px solid cornflowerblue;
+	border-radius: 20px;
+}
+
+.img-avatar {
+	border-radius: 50%;
+}
+
+a {
+	color: rgb(118, 155, 223);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(68, 103, 167);
+}
+
+div {
+	background-color: #f1f3f4;
+	box-shadow: 10px 7px 20px -8px rgba(0, 0, 0, 0.24);
+	padding: 16px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.cta-size {
+	margin-top: 32px;
+	font-size: 32px;
+}
+
+.social-icon {
+	padding-left: 16px;
+	padding-right: 16px;
+	font-size: 48px;
+}
+
+.img-m-width {
+	width: 55%;
+}
+
+.img-card {
+	padding: 16px;
+}
+
+.link-color {
+	color: cornflowerblue;
+}
+
+.link-color:hover {
+	color: rgb(181, 212, 212);
+}
