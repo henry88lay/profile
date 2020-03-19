@@ -32,6 +32,7 @@
 } */
 a {
 	color: cornflowerblue;
+	text-decoration: none;
 }
 a:visited {
 	color: #636;
@@ -73,11 +74,18 @@ li {
 	margin-bottom: 16px;
 }
 
+.button-size-icon {
+	padding: 10px 24px;
+}
+
+.button-size-std {
+	padding: 24px;
+}
+
 .button-color {
 	font-size: larger;
 	font-family: Lora;
 	text-align: center;
-	padding: 24px;
 	background-color: rgb(184, 225, 248);
 	color: cornflowerblue;
 	border: 2px solid cornflowerblue;
