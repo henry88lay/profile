@@ -58,28 +58,27 @@ li {
 	padding: 8px auto;
 }
 
+.button-padding {
+	margin-bottom: 16px;
+}
+
 .button-color {
 	font-size: larger;
 	font-family: Lora;
 	text-align: center;
 	padding: 24px;
-	background-color: rgb(107, 196, 248);
+	background-color: rgb(184, 225, 248);
 	color: cornflowerblue;
 	border: 2px solid cornflowerblue;
 	border-radius: 20px;
 }
 
+.button-color:hover {
+	background-color: rgb(147, 201, 233);
+}
+
 .img-avatar {
 	border-radius: 50%;
-}
-
-a {
-	color: rgb(118, 155, 223);
-	text-decoration: none;
-}
-
-a:hover {
-	color: rgb(68, 103, 167);
 }
 
 div {
