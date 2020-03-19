@@ -35,12 +35,12 @@ a {
 	text-decoration: none;
 }
 a:visited {
-	color: #636;
+	color: cornflowerblue;
 }
 a:hover,
 a:active,
 a:focus {
-	color: #2c87f0;
+	color: #096bdb;
 }
 
 body {
